@@ -1,4 +1,4 @@
-module github.com/fergus-oakley/bump-go
+module github.com/fergus-oakley/bump
 
 go 1.16
 

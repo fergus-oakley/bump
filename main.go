@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	. "github.com/fergus-oakley/bump-go/pkg"
+	. "github.com/fergus-oakley/bump/pkg"
 	"github.com/go-git/go-git/v5"
 	"github.com/pkg/errors"
 	"log"
