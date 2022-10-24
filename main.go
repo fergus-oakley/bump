@@ -18,7 +18,7 @@ var (
 )
 
 func main() {
-	flag.BoolVar(&help, "help", false, "")
+	flag.BoolVar(&help, "help", false, "indicates correct script usage")
 	flag.StringVar(&dir, "dir", "", "root directory of the repository you want to bump the version for. By default uses present working directory.")
 	flag.BoolVar(&minor, "minor", false, "increments the minor release version")
 	flag.BoolVar(&major, "major", false, "increments the major release version")
